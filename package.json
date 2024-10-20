@@ -1,0 +1,36 @@
+{
+  "name": "raylite",
+  "version": "0.0.1",
+  "description": "An educational web-based rendering engine used for my projects",
+  "author": "Adrian",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "webgl",
+    "rendering",
+    "computer",
+    "graphics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianderstroff/raylite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianderstroff/raylite/issues"
+  },
+  "homepage": "https://github.com/adrianderstroff/raylite#readme",
+  "dependencies": {
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
