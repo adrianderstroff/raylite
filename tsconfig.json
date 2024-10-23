@@ -5,8 +5,8 @@
       "declaration": true,
       "outDir": "./dist",
       "baseUrl": "src",
-      "paths": {
-        "raylite/*": ["*"] // Maps "raylite/" to the "src/" folder
-      }
-    }
+    },
+    "include": [
+      "src/*"
+    ]
   }

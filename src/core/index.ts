@@ -5,4 +5,3 @@ export * from './shader';
 export * from './texture';
 export * from './vertexarrayobject';
 export * from './webgl';
-

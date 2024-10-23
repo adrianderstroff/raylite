@@ -1,4 +1,4 @@
-import { Mat2, Vec2, Vec3 } from "raylite/math";
+import { Mat2, Vec2, Vec3 } from "../src/math";
 
 describe('Test Vec2', () => {
     // test constructors
