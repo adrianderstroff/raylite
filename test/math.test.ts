@@ -1,4 +1,4 @@
-import { Mat2, Vec2, Vec3 } from "../src/math";
+import { Mat2, Vec2, Vec3 } from "../dist";
 
 describe('Test Vec2', () => {
     // test constructors

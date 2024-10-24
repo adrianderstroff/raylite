@@ -1,12 +1,15 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2019",
-      "declaration": true,
-      "outDir": "./dist",
-      "baseUrl": "src",
-    },
-    "include": [
-      "src/*"
-    ]
-  }
+  "include": ["src/*"],
+  "exclude": ["**/*.test.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2016",
+    "declaration": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+  },
+}
