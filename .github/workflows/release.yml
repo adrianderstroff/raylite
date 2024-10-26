@@ -1,6 +1,4 @@
-# is a changeset file is found then it creates a pull request to main
-# if no changeset file is found but a changed npm version then a new version
-# will be published on npm and the changelog is updated
+# publishes new state of main to npm when changelog was added or npm version number was updated
 name: Release
 on:
   push:
