@@ -3,33 +3,10 @@ name: CI
 on:
   pull_request:
     branches:
-      - '**'
-      - '!main'
+      - main
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions: {}
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-      - run: corepack enable
-      - run: npm i
-  publish:
-    name: Publish
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: corepack enable
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
-      - run: npm i
   test:
     name: Test
     runs-on: ubuntu-latest
