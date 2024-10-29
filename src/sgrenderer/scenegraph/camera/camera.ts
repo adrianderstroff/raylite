@@ -1,5 +1,5 @@
-import { look_at, Mat4, Vec3 } from 'math';
-import { IControllable } from './controlling';
+import { look_at, Mat4, Vec3 } from 'common/math';
+import { IControllable } from 'sgrenderer/controlling';
 
 export class Camera implements IControllable {
     private pos: Vec3;

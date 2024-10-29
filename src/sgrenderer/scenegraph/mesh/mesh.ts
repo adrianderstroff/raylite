@@ -1,4 +1,4 @@
-import { VertexBuffer, VertexLayout } from 'core';
+import { VertexBuffer, VertexLayout } from 'common/backend/webgl2';
 
 
 // TODO: implement geometry class

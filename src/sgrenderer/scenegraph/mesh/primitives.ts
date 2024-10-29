@@ -1,4 +1,4 @@
-import { Vec2, Vec3 } from "math";
+import { Vec2, Vec3 } from "common/math";
 import { merge_vertex_data, Mesh } from "./mesh";
 
 export class Triangle extends Mesh {

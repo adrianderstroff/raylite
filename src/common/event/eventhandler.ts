@@ -1,4 +1,4 @@
-import { Vec2 } from "math";
+import { Vec2 } from "common/math";
 
 export interface EventHandler {
     on_resize?(width: number, height: number): void;

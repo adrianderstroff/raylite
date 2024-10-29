@@ -1,7 +1,7 @@
-import { WebGl } from "./core/webgl";
+import { WebGl } from "./common/backend/webgl2/webgl";
 
 /**
- * Supported options for the renderer:
+ * Supported options for the engine:
  * 
  * - fps: number - frames per second, default is 30
  * - antialias: boolean - enable anti-aliasing, default is false
@@ -11,7 +11,7 @@ export type RenderOptions = {
     antialias?: boolean;
 };
 
-export class Renderer {
+export class Engine {
     private webgl: WebGl;
     private fps: number;
     private elapsed_time: number;

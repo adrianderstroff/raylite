@@ -1,4 +1,4 @@
-import { Vec3 } from "math";
+import { Vec3 } from "common/math";
 
 export interface IControllable {
     get_position(): Vec3;

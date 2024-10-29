@@ -1,5 +1,5 @@
-import { EventHandler } from "event";
-import { Vec2, Vec3 } from "math";
+import { EventHandler } from "common/event";
+import { Vec2, Vec3 } from "common/math";
 import { IControllable } from "./icontrollable";
 
 export class Controller implements EventHandler {

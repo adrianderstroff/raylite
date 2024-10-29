@@ -1,4 +1,4 @@
-import { Vec2 } from "math";
+import { Vec2 } from "common/math";
 import { EventHandler } from "./eventhandler";
 
 export class EventManager {

@@ -1,4 +1,4 @@
-import { Mat2, Mat3, Mat4, Vec2, Vec3, Vec4 } from 'math';
+import { Mat2, Mat3, Mat4, Vec2, Vec3, Vec4 } from 'common/math';
 
 export class Shader {
     private _gl: WebGL2RenderingContext;

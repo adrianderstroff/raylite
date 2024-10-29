@@ -1,5 +1,5 @@
 {
-  "include": ["src/*"],
+  "include": ["src/*", "src/common/backend/webgl2", "src/common/math", "src/common/event"],
   "exclude": ["**/*.test.ts"],
   "compilerOptions": {
     "module": "CommonJS",
@@ -10,6 +10,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "baseUrl": "src",
+    "baseUrl": "./src",
   },
 }

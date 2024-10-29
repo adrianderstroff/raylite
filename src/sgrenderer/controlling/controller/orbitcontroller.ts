@@ -1,4 +1,4 @@
-import { clamp, Vec2, Vec3 } from "math";
+import { clamp, Vec2, Vec3 } from "common/math";
 import { Controller } from "../controller";
 
 export class OrbitController extends Controller {

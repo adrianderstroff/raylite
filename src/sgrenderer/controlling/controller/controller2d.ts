@@ -1,4 +1,4 @@
-import { rotate_vector_axis_angle, Vec2, Vec3 } from "math";
+import { rotate_vector_axis_angle, Vec2, Vec3 } from "common/math";
 import { Controller } from "../controller";
 
 export class Controller2D extends Controller {
