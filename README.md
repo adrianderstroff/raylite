@@ -1,11 +1,15 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/adrianderstroff/raylite/main/logo.png"/></p>
 
-An educational web-based rendering framework used for my projects.
+An educational web-based rendering framework used for my projects. The goal of this project is to learn about different
+rendering architectures. Raylite will provide an abstraction layer over WebGL and webGPU. The first rendering
+architecture that will be implemented is a a simple scene graph renderer with GLTF support.
 
-So far the framework only supports WebGL. I might extend it to support WebGPU in the future. 
+Please be aware that the code is unstable and might break even within minor releases.
 
-In addition I plan to implement different rendering framework architectures that might coexist or be replaced. 
-Please be aware that the code is unstable and might break even with minor releases.
+## Install guide
+```node
+npm install --save raylite
+```
 
 ## Roadmap 
 ### 0.1.0
