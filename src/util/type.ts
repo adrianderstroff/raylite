@@ -1,6 +1,6 @@
 export function typeof_enum(enum_type: any, variable_to_check: any) {
     return Object.values(enum_type).includes(variable_to_check);
-}
+};
 
 export function is_number_2d(variable: any): variable is number[][] {
     if (!Array.isArray(variable)) { return false; }
@@ -10,4 +10,6 @@ export function is_number_2d(variable: any): variable is number[][] {
             return typeof val === 'number';
         });
     });
-}
+};
+
+export type Optional<T> = T | undefined;
