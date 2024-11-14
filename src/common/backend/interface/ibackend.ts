@@ -1,4 +1,4 @@
 export interface IBackend {
     isSupportedByBrowser(): boolean;
-    initialize(canvas: HTMLCanvasElement): Promise<void>;
+    initialize(canvas: HTMLCanvasElement): Promise<boolean>;
 };
